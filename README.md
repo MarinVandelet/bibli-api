@@ -95,7 +95,7 @@ X-API-KEY : 12345
 
 ---
 
-## ➕ Créer un auteur
+## Créer un auteur
 
 ```
 POST http://localhost:8081/authors
@@ -128,7 +128,7 @@ Réponse :
 
 ---
 
-## ➕ Créer un livre
+## Créer un livre
 
 ```
 POST http://localhost:8081/books
