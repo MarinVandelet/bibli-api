@@ -68,7 +68,7 @@ app.api-key=12345
 server.port=8081
 ```
 
-### 4️4) Lancer l’application
+### 4) Lancer l’application
 
 Via IntelliJ :  
 **Run BibliApiApplication**
