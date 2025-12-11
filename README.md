@@ -1,4 +1,4 @@
-# 📚 Bibli-API — Gestion d’une bibliothèque en REST API
+# Bibli-API — Gestion d’une bibliothèque en REST API
 
 Une API REST développée avec **Spring Boot**, **JPA/Hibernate** et **MySQL (via XAMPP)** permettant de gérer :
 
@@ -11,7 +11,7 @@ Une API REST développée avec **Spring Boot**, **JPA/Hibernate** et **MySQL (vi
 
 ---
 
-## 📝 Description du projet
+## Description du projet
 
 Bibli-API est un service back-end permettant de gérer une bibliothèque.
 Il offre toutes les opérations CRUD sur les auteurs et les livres ainsi que plusieurs fonctionnalités avancées :
@@ -35,7 +35,6 @@ Il offre toutes les opérations CRUD sur les auteurs et les livres ainsi que plu
 | **Spring Boot 4** | Framework principal |
 | **Spring Data JPA** | Accès aux données |
 | **MySQL 8 (XAMPP)** | Base de données |
-| **Hibernate** | ORM |
 | **Postman** | Tests API |
 | **Maven** | Gestion du build |
 
