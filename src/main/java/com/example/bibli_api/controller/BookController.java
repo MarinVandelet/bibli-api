@@ -33,12 +33,7 @@ public class BookController {
         return bookService.getDtoById(id);
     }
 
-    // GET /books – recherche avec filtres + pagination
-    // Exemples :
-    //   /books?title=mis
-    //   /books?category=NOVEL
-    //   /books?authorId=1
-    //   /books?fromYear=1800&toYear=1900&page=0&size=5
+    // GET /books – recherche avec filtres
     @GetMapping
     public Page<BookResponseDto> search(
             @RequestParam(required = false) String title,
