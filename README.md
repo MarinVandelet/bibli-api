@@ -80,7 +80,7 @@ Ou via terminal :
 mvn spring-boot:run
 ```
 
-⚠️ Si il y'à eu une erreur de port, il suffit de changer dans **application.properties** et donc de changer le port dans les tests Postman.
+⚠️ Si une erreur de port apparaît, il suffit de changer dans **application.properties** et donc de changer le port dans les tests Postman.
 
 
 ---
