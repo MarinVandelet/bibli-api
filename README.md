@@ -1,7 +1,7 @@
 # Bibli-API — Gestion d’une bibliothèque en REST API
 ## Réalisé par Marin Vandelet et Yanis Buhot
 
-Une API REST développée avec **Spring Boot**, **JPA/Hibernate** et **MySQL (via XAMPP)** permettant de gérer :
+Une API REST développée avec **Spring Boot**, **JPA** et **MySQL (via XAMPP)** permettant de gérer :
 
 - Les **auteurs**
 - Les **livres**
