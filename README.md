@@ -66,7 +66,7 @@ spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 app.api-key=12345
-server.port=8081
+server.port=8080
 ```
 
 ### 4) Lancer l’application
@@ -102,7 +102,7 @@ X-API-KEY : 12345
 ## Créer un auteur
 
 ```
-POST http://localhost:8081/authors
+POST http://localhost:8080/authors
 ```
 
 Body :
@@ -135,7 +135,7 @@ Réponse :
 ## Créer un livre
 
 ```
-POST http://localhost:8081/books
+POST http://localhost:8080/books
 ```
 
 Body :
@@ -159,7 +159,7 @@ Body :
 ## Nombre total de livres
 
 ```
-GET http://localhost:8081/stats/books
+GET http://localhost:8080/stats/books
 ```
 
 ---
@@ -167,7 +167,7 @@ GET http://localhost:8081/stats/books
 ## Nombre total d’auteurs
 
 ```
-GET http://localhost:8081/stats/authors
+GET http://localhost:8080/stats/authors
 ```
 
 ---
@@ -175,7 +175,7 @@ GET http://localhost:8081/stats/authors
 ## Nombre de livres par catégorie
 
 ```
-GET http://localhost:8081/stats/books/by-category
+GET http://localhost:8080/stats/books/by-category
 ```
 
 ---
@@ -183,10 +183,10 @@ GET http://localhost:8081/stats/books/by-category
 # Autres Tests pour voir si l'API fonctionne
 
 ```
-DELETE http://localhost:8081/books/1
-GET http://localhost:8081/books/1
-GET http://localhost:8081/books?category=ESSAY
-GET http://localhost:8081/books?title=les
-GET http://localhost:8081/books?fromYear=1800&toYear=1950
+DELETE http://localhost:8080/books/1
+GET http://localhost:8080/books/1
+GET http://localhost:8080/books?category=ESSAY
+GET http://localhost:8080/books?title=les
+GET http://localhost:8080/books?fromYear=1800&toYear=1950
 ```
 
