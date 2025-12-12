@@ -25,7 +25,6 @@ public class ApiKeyFilter extends OncePerRequestFilter {
             FilterChain filterChain
     ) throws ServletException, IOException {
 
-        // On laisse passer Actuator, etc. si besoin plus tard.
         String apiKey = request.getHeader(HEADER_NAME);
 
         if (apiKey == null || !apiKey.equals(expectedApiKey)) {
