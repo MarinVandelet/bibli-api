@@ -11,7 +11,7 @@ public class FilterConfig {
     public FilterRegistrationBean<ApiKeyFilter> apiKeyFilterRegistration(ApiKeyFilter filter) {
         FilterRegistrationBean<ApiKeyFilter> registration = new FilterRegistrationBean<>();
         registration.setFilter(filter);
-        registration.addUrlPatterns("/*"); // toutes les routes
+        registration.addUrlPatterns("/*");
         registration.setOrder(1);
         return registration;
     }
